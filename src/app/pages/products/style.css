@@ -1,0 +1,17 @@
+.options {
+  margin: 1rem;
+}
+
+.options .option {
+  padding: 0.25rem 1rem;
+  margin: 0.25rem;
+  border: 1px solid grey;
+  border-radius: 3px;
+  background-color: rgb(238, 238, 238);
+}
+
+.options .option.selected {
+  border: 1px solid blue;
+  background-color: skyblue;
+  border-radius: 3px;
+}

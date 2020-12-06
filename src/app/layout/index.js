@@ -3,10 +3,10 @@ import Footer from "./footer/index";
 import Header from "./header/index";
 
 import "./styles.css";
-export default function Layout({ children, onChange }) {
+export default function Layout({ children }) {
   return (
     <div className="__dml container">
-      <Header onChange={onChange} />
+      <Header />
       {children}
       <Footer />
     </div>
